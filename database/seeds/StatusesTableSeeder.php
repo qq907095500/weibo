@@ -17,4 +17,6 @@ class StatusesTableSeeder extends Seeder
 
         Status::insert($statuses->toArray());
     }
+
+
 }
